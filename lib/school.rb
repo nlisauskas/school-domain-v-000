@@ -16,10 +16,12 @@ class School
     return roster[grade]
 end
 
-def sort(hash)
-  hash.each do |grade|
-    grade.sort
+def sort
+  new_roster = {}
+  @roster.each do |grade, students|
+    new_roster[grade] = students.sort
   end
+  new_roster
 end
 
 end
