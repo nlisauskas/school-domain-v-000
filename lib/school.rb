@@ -16,7 +16,10 @@ class School
     return roster[grade]
 end
 
-def sort
+def sort(hash)
+  hash.each do |grade|
+    grade.sort
+  end
 end
 
 end
