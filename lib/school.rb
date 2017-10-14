@@ -16,8 +16,8 @@ class School
     return roster[grade]
 end
 
-def sort(roster)
-  roster[grade].sort
+def sort(hash)
+  hash[grade].sort
 end
 
 end
