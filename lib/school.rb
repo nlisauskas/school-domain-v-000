@@ -17,7 +17,7 @@ class School
 end
 
 def sort(hash)
-  hash[grade].sort
+  hash.sort
 end
 
 end
